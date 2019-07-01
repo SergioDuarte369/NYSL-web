@@ -1,0 +1,387 @@
+/* .container{
+   position: relative;
+    top: 13px;
+  width: 100%;
+  height: 200px;
+  background-image: url(../design1_image1.jpg);
+  background-repeat: no-repeat;
+  background-position-y: -51px;
+  background-size: 100%;
+} */
+.container {
+  background-image: url(../design1_image1.jpg);
+  background-repeat: no-repeat;
+  background-position-y: -51px;
+  background-size: 100%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.bigpapa {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.h1r {}
+
+.h1 {
+  position: relative;
+  top: -6px;
+}
+
+.logo {
+  display: flex;
+  z-index: 1;
+  width: 9%;
+  position: relative;
+  left: 828px;
+  top: 49px;
+}
+
+.ul {
+  display: flex;
+  list-style: none;
+  font-weight: bold;
+  justify-content: center;
+}
+
+.menuflex {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  top: -15.8em;
+  text-transform: uppercase;
+  background: white;
+}
+
+.menuflex:before {
+  width: 60px;
+  position: absolute;
+  border-bottom: 8px solid black;
+  bottom: 0px;
+  transition: 0.7s all;
+}
+
+.menuflex:hover:before {
+  right: 0
+}
+
+.espacio {
+  margin: 10px;
+}
+
+.pepito {
+  width: 1153px;
+  height: 700px;
+  color: white
+}
+
+.upcomingevents {
+  text-align: center;
+  background-color: #e4a860;
+  color: black;
+}
+
+.verde {
+  margin: 10px;
+  background-color: green;
+  box-shadow: black 4px 4px;
+}
+
+.azul {
+  background-color: blue;
+  margin: 10px;
+  box-shadow: black 4px 4px;
+}
+
+.colortexto {
+  color: white;
+  text-decoration: none;
+}
+
+.formatopagina {
+  margin-left: 90px;
+  margin-right: 90px;
+  margin-top: 15px;
+  margin-bottom: 90px;
+  font-family: sans-serif;
+}
+
+.sportsmanship {
+  list-style-type: square;
+}
+
+.center {
+  text-align: center;
+}
+
+.nostyle {
+  list-style: none;
+}
+
+.start2 {
+  table-layout: fixed:2;
+}
+
+.letras {
+  list-style-type: lower-latin;
+}
+
+.numeros {
+  list-style-type: decimal;
+}
+
+.redondo {
+  list-style-type: circle;
+}
+
+h2 {
+  margin: 0;
+}
+
+tr, td {
+  border-style: none;
+      min-width: 73px;
+}
+
+th {
+  min-width: 9rem;
+}
+
+td {
+  width: 3rem;
+}
+
+.headerbackground {
+  display: flex;
+  width: 100%;
+}
+
+.headerbalon {
+  display: flex;
+  width: 100%;
+  margin-bottom: 2rem;
+  height: 8rem;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.celdas {
+  column-span: 2;
+}
+
+.gameinfomenu {
+  top: 30px;
+  list-style: none;
+  font-weight: bold;
+  display: inline-flex;
+  position: absolute;
+  left: 702px;
+}
+
+.mismalinea {
+  position: relative;
+  right: -50rem;
+  top: -2rem;
+}
+
+.footerizquierda {
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+}
+
+.footerderecha {
+  display: inline-block;
+  vertical-align: top;
+  text-align: right;
+}
+
+.menurules {
+  list-style: none;
+  font-weight: bold;
+  display: inline-flex;
+  position: absolute;
+  top: 94px;
+  left: 702px;
+}
+
+.espaciotabla {
+  width: 57rem;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.empiezaen4 {
+  list-style: decimal li;
+}
+
+.empieza2 {
+  list-style: none;
+  counter-increment: start 2;
+}
+
+.espacioinferior {
+  padding-bottom: 15px;
+}
+
+.espaciosuperior {
+  padding-top: 15px
+}
+
+/* problema para empezar la lista en linea 95 en el numero 2. Problemas para hacer que una lista empiece en el numero deseado. Problema parar introducir correctamente br en el html */
+.primeralinea {
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-start;
+  width: 98%;
+}
+
+.primeralinea_1 {
+  display: flex;
+  width: 48%;
+}
+
+.dosespaciosescitura {
+  display: flex;
+  width: 70%;
+}
+
+.labelstreet {
+  display: flex;
+  float: left;
+}
+
+.streetadress {
+  display: flex;
+  justify-content: flex-start;
+  width: 79%;
+}
+
+.cityzip {
+  display: flex;
+  width: 98%;
+  flex-flow: row;
+  justify-content: flex-start;
+}
+
+.gender {}
+
+.nostyleinput {
+  border: none;
+  border-bottom: 1px solid black;
+  background: #f1f1f1;
+}
+
+.cuadrosescuela {
+  display: flex;
+  width: 90%;
+  flex-direction: column;
+}
+
+.separarcuadros {
+  display: flex;
+  width: 98%;
+}
+
+.columnavertical {
+  display: flex;
+  flex-direction: column;
+  width: 48%;
+}
+
+.flexing {
+  display: flex;
+}
+
+.postitioncheck {
+  display: flex;
+  width: 11%;
+  flex-direction: column;
+}
+
+.uniform {
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.justificado {
+  text-align: justify;
+}
+
+.spacex {
+  margin-top: 6px;
+}
+
+.alineadocentro {
+  text-align: center;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  margin-top: 39px;
+}
+
+.signature {
+  border: none;
+  background: #f1f1f1;
+}
+
+.grupo1mapas {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 18px;
+  margin-bottom: 33px;
+}
+
+.grupo2mapas {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 33px;
+}
+
+.grupo3mapas {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 33px;
+}
+
+.formatoheader {
+  display: flex;
+  width: 98%;
+  flex-direction: column;
+}
+.marginbottom{
+  margin-bottom: 2rem;
+}
+.playerfirst {
+  width: 156px;
+}
+.backcolor{
+      background: wheat;
+}
+.video {
+  display: flex;
+  justify-content: center;
+  margin-top: 6rem;
+  flex-direction: column;
+  margin-left: 24rem;
+}
+.margintable{
+  margin-top: 1rem;
+}
+.marginright {
+  margin-right: 12rem;
+}
+
+.tablasflex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

@@ -1,0 +1,40 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: #f1f1f1;
+}
+#menu{
+  margin: 0;
+  padding: 0;
+  margin-top: 6px;
+  background: wheat;
+}
+#menu li{
+  list-style: none;
+  display: inline-block;
+}
+#menu li a{
+  text-decoration: none;
+  position: relative;
+  color: black;
+  font-size: 19px;
+  font-weight: 700;
+  font-family: sans-serif;
+  display: block;
+  overflow: hidden;
+  transition: 0.7s all;
+  padding: 25px 12px;
+  text-transform: uppercase;
+}
+#menu li a:before{
+  content: '';
+  width: 60px;
+  position: absolute;
+  border-bottom: 4px solid black;
+  bottom: 0;
+  right: 350px;
+  transition: 0.7s all;
+}
+#menu li a:hover:before{
+  right: 0;
+}
